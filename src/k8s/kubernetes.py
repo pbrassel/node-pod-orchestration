@@ -473,7 +473,7 @@ def _create_nginx_config_map(analysis_name: str,
                                               'component=flame-storage-service',
                                               namespace=namespace)[0]
 
-    # generate config map
+    # Generate config map
     data = {
         "nginx.conf": f"""
             pid /tmp/nginx.pid;
