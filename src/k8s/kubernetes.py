@@ -515,6 +515,7 @@ def _create_nginx_config_map(analysis_name: str,
                         proxy_pass http://{storage_service_name}:8080;
                         allow       {analysis_ip};
                         deny        all;
+                        proxy_read_timeout    3000s;
                     }}
                     
                     

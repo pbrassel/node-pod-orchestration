@@ -10,7 +10,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ghcr.io/privateaim/node-pod-orchestration
+  IMAGE_NAME: ghcr.io/pbrassel/node-pod-orchestration
 
 jobs:
   build-and-push-image:
